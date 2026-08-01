@@ -1,7 +1,31 @@
 aid: processbolt
-name: ProcessBolt
-description: ProcessBolt is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/processbolt.png
+name: Perimeter VRM (formerly ProcessBolt)
+description: >-
+  Perimeter (formerly ProcessBolt) is a vendor risk management (VRM) platform
+  built for regulated industries. It covers the full third-party risk lifecycle
+  through six modules — Monitor (continuous vendor surveillance and alerts),
+  Assess (automated risk assessments with a drag-and-drop template builder),
+  Extract (AI-powered document intelligence), Verify (attack-surface
+  validation), Share (a document management and collaboration hub), and Respond
+  (RFP and assessment response automation). The product centralizes vendor
+  information, scores and reports vendor risk, and supports no-code integration
+  and API-based / CSV vendor imports across US, EU, and Australia data regions.
+  ProcessBolt rebranded to Perimeter and now serves the platform from
+  perimeter.net; processbolt.com redirects there. No public developer portal,
+  OpenAPI, or SDKs are published — the platform's integration APIs are exposed
+  to customers rather than through an open developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/processbolt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +33,22 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand:
+  former_name: ProcessBolt
+  current_name: Perimeter VRM
+  note: processbolt.com 301-redirects to perimeter.net
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Vendor Risk Management
+- Third-Party Risk
+- Governance Risk Compliance
+- Cybersecurity
+- Risk Assessment
+- Security
+- Attack Surface Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +56,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/processbolt-domain-security.yml
 - type: Website
-  url: https://processbolt.com/
+  url: https://perimeter.net/
+- type: Blog
+  url: https://perimeter.net/insights/
+- type: PrivacyPolicy
+  url: https://perimeter.net/privacy-policy/
+- type: TermsOfService
+  url: https://perimeter.net/terms-and-conditions/
+- type: SignUp
+  url: https://perimeter.net/request-demo/
+- type: Login
+  url: https://app.perimeter.net/
+- type: Support
+  url: https://perimeter.net/contact/
+- type: About
+  url: https://perimeter.net/about/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
