@@ -37,7 +37,7 @@ x-rebrand:
   former_name: ProcessBolt
   current_name: Perimeter VRM
   note: processbolt.com 301-redirects to perimeter.net
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
